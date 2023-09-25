@@ -53,10 +53,11 @@ int main()
         cin>>keluar;
         if (keluar == 'y' || keluar == 'Y'){
             cout << "\n=========== PROGRAM SELESAI ===========\n\n";
-            return false;
+            return 0;
         }
         else if (keluar == 'n' || keluar == 'N'){
             main();
+            return 0;
         }
         else{
             cout<<"HARAP MASUKKAN Y/N!";
